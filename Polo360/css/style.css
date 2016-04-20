@@ -192,3 +192,6 @@ hr{
 #footer a,p,li{
 	color: lightgrey;
 }
+ul li a{
+	float:left;
+}

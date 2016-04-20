@@ -1,5 +1,5 @@
 ﻿				<div id="footer" class="row">	
-					<?php Loader::element('footer_required');?>
+					
 					<div class="col-md-5">
 						<ul id="liensbas">
 							<li> Site powered by Wordpress. Designed and Developped by VIVROCKS</li>
@@ -20,6 +20,8 @@
 					</div>
 				</div>  <!--fin de footer-->
 			</div>	<!--fin class in-->
-		</div>	<!--fin de container-->	
+		</div>
+		<!--fin de container-->
+		<?php Loader::element('footer_required');?>
 	</body>
 </html>

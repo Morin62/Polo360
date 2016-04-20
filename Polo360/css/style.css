@@ -1,0 +1,194 @@
+﻿body{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	font-family:Times,Arial,sans-serif;
+}
+
+#container{
+	padding: 0px 15px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.in{
+	width:924px;
+	margin:0 auto;
+}
+
+ol,ul {
+	list-style-position:inside;
+}
+
+li{
+	list-style-type: none;
+}
+
+h3{
+	font-size:18px;
+}
+
+#menuhaut {
+	margin-top:20px;
+	float:right;
+}
+
+#menuhaut li{
+	float:left;
+	width:auto;
+	margin-right:15px;
+}
+
+#menuhaut a{
+	text-decoration : none;
+	color:black;
+	font-weight:bold;
+	
+}
+
+.sstitre{
+	font-size:10px;
+	color:grey;
+}
+
+#bandeau{
+	position:relative;
+	background-color:#333;
+	height:350px;
+}
+
+#diaporama{
+	position : absolute;
+	left:20px;
+	right:20px;
+	width:924px;
+	margin: -20px auto;
+}
+
+#diaporama h2{
+	text-align:center;
+	margin-top:-5px;
+	font-weight:bold;
+	font-size:18px;
+}
+
+#miniatures{
+	margin-top:50px;
+}
+
+#miniatures h2{
+	font-size:18px;
+	font-weight:bold;
+	color:black;
+	text-align: center;
+
+}
+
+#miniatures h3{
+	color:blue;
+	text-align: left;
+}
+
+#miniatures h4{
+	font-size:10px;
+	color:grey;
+	text-align: left;
+	margin-top:-10px;
+	
+}
+
+.lienmini{
+	background-color:#dcdcdc;
+	border:1px solid #dcdcdc;
+	border-radius:5px;
+	padding:10px 20px;
+
+}
+
+#miniatures p{
+	font-size:10px;
+	color:black;
+	text-align: left;
+	margin-top:10px;
+}
+
+.renvoi{
+	background-color:#5b7bcc;
+	border:1px solid #5b7bcc;
+	color:white;
+	border-radius:5px;
+	padding:10px 20px;
+
+}
+
+#boxbas p{
+	color:grey;
+}
+
+#Social li{
+	display: inline-block;
+	float:center;
+	margin:0px 12px;
+	width:25px;
+}
+
+#Social p{
+	margin-top:-5px;
+}
+
+#reseaux{
+	display:inline-block;
+}
+
+#reseaux li{
+	margin-left:12px;
+}
+
+#Social input{
+	display:inline-block;
+	width:100%;
+	border:1px solid lightgrey;
+}
+
+#contact input{
+	display:inline-block;
+	width:100%;
+	border:1px solid lightgrey;
+	margin:0px 0px 10px;
+}
+
+#messagecontact{
+	width:100%;
+	height:150px;
+	border:1px solid lightgrey;
+}
+
+#News li{
+	margin:0px;
+	padding:0px;
+}
+
+hr{
+	display:block;
+	height:0px;
+	border-top:1px dashed grey;
+	margin-top:-7px;
+
+}
+
+#lienbas a,li,p{
+	font-size:11px;
+	color:#996699;
+}
+
+#footer{
+	background-color:#333;
+	padding-top:15px;
+
+
+	border-top: 10px solid grey;
+}
+
+#footer a,p,li{
+	color: lightgrey;
+}
